@@ -1,0 +1,51 @@
+<style>
+  #content {
+    max-width: 100rem;
+  }
+  .video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+  }
+  .chat-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 104%;
+  }
+  .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  .current-live-section {
+    display: flex;
+  }
+  .live-video {
+    width: 65%;
+  }
+  .live-video-100 {
+    width: 100%
+  }
+  .live-chat {
+    width: 35%;
+  }
+  @media (max-width: 768px) {
+    .current-live-section {
+      display: block;
+    }
+    .live-video {
+      width: 100%;
+    }
+    .live-chat {
+      width: 100%;
+    }
+    .chat-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 104%;
+    }
+  }
+</style>
